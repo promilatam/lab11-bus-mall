@@ -1,0 +1,79 @@
+body {
+    background-color: azure;
+}
+
+main {
+    width: 100%;
+}
+
+nav {
+    width: 100px;
+    height: 60px;
+    margin: auto;
+    background: papayawhip;
+    margin-bottom: 7px;
+    
+}
+
+nav > ul > li{
+    display: block;
+    margin-right: 6%;
+    float: left;
+    text-align: center;
+    padding-left: 10%;
+
+}
+
+nav > ul >li >a {
+    color: white;
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+}
+
+#panelOfChoice > h3, #panelOfChoice>h4 {
+    background-color: aqua
+    
+}
+
+#data{
+    float: left;
+    width: 20%;
+}
+
+#data>ul{
+    margin-left: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+#panelOfChoices {
+    display: inline-block;
+    margin: 0 auto;
+    width: 50%;
+    border-block: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#panelOfChoices > div > img{
+    height: 100%;
+    width: 100%;
+    /* padding: 5px; */
+    border: 1px solid black;
+  }
+  
+  #aside {
+    float: right;
+    width: 20%;
+    /* border: 1px solid black; */
+  }
+  
+  .asidePic{
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
